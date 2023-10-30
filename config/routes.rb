@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get "/refresh", to: "authorize#refresh"
   post "/logout", to: "authorize#logout"
   resources :user
+  resources :contacts
 end
